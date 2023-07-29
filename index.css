@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F2D5DB;
+}
+
+section {
+    margin-top: 200px;
+    color: #241D70;
+}
+
+.wrapper, h2, h3, .counter, .wrapper-save {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-counter {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.title-saved {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.decrease-btn, .increase-btn, .save-btn {
+    max-height: 100px;
+    margin: 15px;
+}
+
+span {
+    font-size: 140px;
+    margin: 20px;
+}
+
+.btn-img {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+}
+
+.btn-img img {
+    width: 100px;
+}
+
+.saved-nums {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.saved-row {
+    display: flex;
+    justify-content: center;   
+}
+
+
