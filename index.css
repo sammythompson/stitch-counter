@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     font-family: sans-serif;
 }
 
@@ -58,6 +58,20 @@ span {
 .saved-row {
     display: flex;
     justify-content: center;   
+}
+
+tr {
+    cursor: pointer;
+}
+
+tr:hover {
+    background: blue;
+}
+
+.table-row-header,
+.table-row-header:hover {
+    cursor: default;
+    background-color: transparent;
 }
 
 

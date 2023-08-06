@@ -27,7 +27,7 @@
   </head>
   <body>
     <section class="section-all">
-      <h2 class="title-counter">COUNTER</h2>
+      <!-- <h2 class="title-counter">COUNTER</h2> -->
 
       <div class="wrapper">
         <input
@@ -45,25 +45,31 @@
         />
         <!-- <button class="increase-btn">Increase</button> -->
       </div>
-      <div class="wrapper-save">
-        <button class="save-btn">Save</button>
-        <input
-          class="save-btn"
-          type="image"
-          src="file:///Users/Sam/Downloads/letter-s.png"
-        />
-      </div>
-      <button class="btn-img">
+
+      <!-- <button class="btn-img">
         <img src="file:///Users/Sam/Downloads/letter-s.png" />
-      </button>
+      </button> -->
+
       <ul class="increment-list">
         <li class="increment-btns"><button data-increment="1">1</button></li>
         <li class="increment-btns"><button data-increment="3">3</button></li>
         <li class="increment-btns"><button data-increment="5">5</button></li>
         <li class="increment-btns"><button data-increment="10">10</button></li>
       </ul>
-      <h2 class="title-saved">SAVED</h2>
-      <div class="saved-nums"></div>
+
+      <button class="new-row-btn">New Row</button>
+      <table>
+        <tbody class="table-body-el">
+          <tr class="table-row-header">
+            <th>Rows</th>
+            <th>Stiches</th>
+          </tr>
+          <tr class="table-row-numbers" data-row-index="0">
+            <td class="column-index">1</td>
+            <td class="column-stitches">0</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
   </body>
 </html>
